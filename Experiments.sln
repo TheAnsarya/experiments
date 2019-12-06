@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoCastReturnTypes", "AutoCastReturnTypes\AutoCastReturnTypes.csproj", "{7B95E145-D609-4193-A6A3-7B3A7CA48C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoCastReturnTypes", "AutoCastReturnTypes\AutoCastReturnTypes.csproj", "{7B95E145-D609-4193-A6A3-7B3A7CA48C6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanTests", "SpanTests\SpanTests.csproj", "{6305EB84-2D2B-4638-A007-328ABC2D2C87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode", "AdventOfCode\AdventOfCode.csproj", "{AE5A7DD0-1189-4DDE-A0E0-287224F3C9DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7B95E145-D609-4193-A6A3-7B3A7CA48C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B95E145-D609-4193-A6A3-7B3A7CA48C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B95E145-D609-4193-A6A3-7B3A7CA48C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6305EB84-2D2B-4638-A007-328ABC2D2C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6305EB84-2D2B-4638-A007-328ABC2D2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6305EB84-2D2B-4638-A007-328ABC2D2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6305EB84-2D2B-4638-A007-328ABC2D2C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5A7DD0-1189-4DDE-A0E0-287224F3C9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5A7DD0-1189-4DDE-A0E0-287224F3C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5A7DD0-1189-4DDE-A0E0-287224F3C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5A7DD0-1189-4DDE-A0E0-287224F3C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
